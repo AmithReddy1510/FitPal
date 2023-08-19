@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPal - Your one stop destination to all your fitness queries</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">FitPal</div>
+                <ul class="navbar flex items-center">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Calorie Tracker</li>
+                    <li>Contact</li>
+                    <li><button class="btn">Join</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="dumbellimg" src="dumbell.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">The only fitness website you'll need</h1>
+                        <p class=" text-center">Welcome to our website. This is the one stop destination for all your fitness queries and online coaching</p>
+                            <!-- Display the countdown timer in an element -->
+                            <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                            <div class="buttons">
+                                <button class="btn">Diet Plan</button>
+                                <button class="btn">Workout Plan</button>
+                            </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="gym.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Workout Plan</h1>
+                <p class="my-2">"Push, Pull, Legs" (PPL) is a popular and effective workout routine used in strength training and bodybuilding. It's a way to organize your workouts based on the type of movement patterns and muscle groups involved. The routine is typically structured as follows:</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Push</h2>
+                        <ul>
+                            <li class="highlighted">Chest-Shoulder-Tricep</li>
+                            <li>Bench press</li>
+                            <li>Shoulder press</li>
+                            <li>Tricep extension</li>
+                            <li>Chset fly</li>
+                            <li><button class="btn">Details</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Pull</h2>
+                        <ul>
+                            <li class="highlighted">Back-Bicep</li>
+                            <li>Pull ups</li>
+                            <li>Cable rows</li>
+                            <li>Bicep curls</li>
+                            <li>Deadlift</li>
+                            <li><button class="btn">Details</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Legs</h2>
+                        <ul>
+                            <li class="highlighted">Quad-Hamstring-Calves</li>
+                            <li>Squat</li>
+                            <li>Leg extension</li>
+                            <li>Hamstring curl</li>
+                            <li>Calf raise</li>
+                            <li><button class="btn">Details</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Diet Plan</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th></th><th>Miniumum(grams per pound of body weight)</th>
+                          <th>Ideal(grams per pound of body weight)</th>
+                          <th>Maximum(grams per pound of body weight)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Protein</th>
+                          <td>0.8</svg></td>
+                          <td>1-1.2</svg></td>
+                          <td>2</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Carbohydrates</th>
+                          <td>0.8-1</td>
+                          <td>2</svg></td>
+                          <td>3</svg></td>
+                        </tr>
+                      </tbody>
+              
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Fats</th>
+                          <td>0.2-0.3</svg></td>
+                          <td>0.3-0.4</svg></td>
+                          <td>1</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Fibre</th>
+                          <td>0.14-0.17</td>
+                          <td>0.2</svg></td>
+                          <td>no maximum</svg></td>
+                        </tr>
+                        
+                        
+                      </tbody>
+                    </table>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; FitPal.com | All rights reserved
+        </footer>
+
+    </div>
+</body>
+
+</html>
